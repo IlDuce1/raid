@@ -2,3 +2,5 @@
 /raid-ws/target
 /raid-indexer/.env
 /raid-ws/.env
+/raid-indexer/Cargo.lock
+/raid-ws/Cargo.lock
