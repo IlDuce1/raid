@@ -1,0 +1,4 @@
+/raid-indexer/target
+/raid-ws/target
+/raid-indexer/.env
+/raid-ws/.env
