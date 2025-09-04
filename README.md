@@ -19,7 +19,7 @@
 
 ---
 
-## 🗂️ Project Structure
+### 🗂️ Project Structure
 raid/
 ├── raid-indexer/ # Indexer package (listens to Ethereum chain & updates MongoDB)
 │ ├── src/
@@ -48,7 +48,7 @@ cargo run -p raid-ws
 MONGODB_CONNECTION_STRING=mongodb://localhost:27017
 RPC_URL=YOUR/RPC/URL
 
-# Example
+### Example
 import { io } from "socket.io-client";
 
 const socket = io("http://localhost:3000");
