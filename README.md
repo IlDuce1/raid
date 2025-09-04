@@ -20,15 +20,13 @@
 ---
 
 ### 🗂️ Project Structure
-raid/
-├── raid-indexer/ # Indexer package (listens to Ethereum chain & updates MongoDB)
-│ ├── src/
-│ └── Cargo.toml
-├── raid-ws/ # Websocket broadcaster package
-│ ├── src/
-│ └── Cargo.toml
-├── Cargo.toml # Workspace manifest
-└── README.md
+raid-indexer/ → Indexer package (listens to Ethereum chain & updates MongoDB)
+
+raid-ws/ → Websocket broadcaster package (streams DB updates to clients)
+
+Cargo.toml → Workspace manifest (ties the two crates together)
+
+README.md → Workspace-level documentation
 
 ### 1. Clone & Install
 ```bash
